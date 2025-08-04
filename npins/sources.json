@@ -1,0 +1,275 @@
+{
+  "pins": {
+    "caelestia-cli": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "caelestia-dots",
+        "repo": "cli"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "2bde2ddfbf56277fbf93af96fe3a88cb042b6696",
+      "url": "https://github.com/caelestia-dots/cli/archive/2bde2ddfbf56277fbf93af96fe3a88cb042b6696.tar.gz",
+      "hash": "0hgz3nambk2gynsy1y5gqxqqsv64mnb6i0akyx4qgj3a3br88yjn"
+    },
+    "daed": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "daeuniverse",
+        "repo": "flake.nix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "0c7fc4b0984982c44731d4603ce0d37d0d4742a2",
+      "url": "https://github.com/daeuniverse/flake.nix/archive/0c7fc4b0984982c44731d4603ce0d37d0d4742a2.tar.gz",
+      "hash": "1aslsc81r9bndzzf81h6cv25lixvbi736xzabkdywswjm8kn6k8j"
+    },
+    "disko": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "disko"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.12.0",
+      "revision": "7121f74b976481bc36877abaf52adab2a178fcbe",
+      "url": "https://api.github.com/repos/nix-community/disko/tarball/v1.12.0",
+      "hash": "sha256-eDoSOhxGEm2PykZFa/x9QG5eTH0MJdiJ9aR00VAofXE="
+    },
+    "flake-compat": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "flake-compat"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.0.2",
+      "revision": "2653659fb5d86f2853caae1b6475e63e8c23439c",
+      "url": "https://api.github.com/repos/nilla-nix/flake-compat/tarball/v0.0.2",
+      "hash": "sha256-drL2fVdcowCdRauFVfqWWUfGEGVDqui5Ul240kyivZg="
+    },
+    "home-manager": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "home-manager"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "d732b648e5a7e3b89439ee25895e4eb24b7e5452",
+      "url": "https://github.com/nix-community/home-manager/archive/d732b648e5a7e3b89439ee25895e4eb24b7e5452.tar.gz",
+      "hash": "sha256-fsld/crW9XRodFUG1GK8Lt0ERv6ARl9Wj3Xb0x96J4w="
+    },
+    "lix": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://git.lix.systems/",
+        "owner": "lix-project",
+        "repo": "lix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "321807a40e1fdd44d950ff01746c95cb6e2eced3",
+      "url": "https://git.lix.systems/lix-project/lix/archive/321807a40e1fdd44d950ff01746c95cb6e2eced3.tar.gz",
+      "hash": "sha256-2sDX5Nv/DGIzZH+3pIlAUpZfVlMGz7Hl/mqHUaic+p8="
+    },
+    "lix-module": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://git.lix.systems/",
+        "owner": "lix-project",
+        "repo": "nixos-module"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "4d4c2b8f0a801c91ce5b717c77fe3a17efa1402f",
+      "url": "https://git.lix.systems/lix-project/nixos-module/archive/4d4c2b8f0a801c91ce5b717c77fe3a17efa1402f.tar.gz",
+      "hash": "sha256-gbpuESxl/An4GTh7QEbQRYJozVIxWkwVGbWK0/0GoRc="
+    },
+    "nilla": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "nilla"
+      },
+      "pre_releases": true,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.0.0-alpha.14",
+      "revision": "2e98ae315a592ad6b6de44670514c048dcc88dc7",
+      "url": "https://api.github.com/repos/nilla-nix/nilla/tarball/v0.0.0-alpha.14",
+      "hash": "sha256-15lwhWcMonJH6UholMMHDc+p2BoSpGA4AYGrsXQA9Do="
+    },
+    "nilla-cli": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "cli"
+      },
+      "pre_releases": true,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.0.0-alpha.10",
+      "revision": "865bfa1dd6263b36755f5297b7d7a245befe680e",
+      "url": "https://api.github.com/repos/nilla-nix/cli/tarball/v0.0.0-alpha.10",
+      "hash": "sha256-0+d6LZfofBG+4OxnZcFaNg2ycgj1zcOJQUcPL1TEaSc="
+    },
+    "nilla-home": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "home"
+      },
+      "pre_releases": true,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.1.1-alpha",
+      "revision": "8d8d783cd3ebe38246f66c027a312e5ec0914c58",
+      "url": "https://api.github.com/repos/nilla-nix/home/tarball/v0.1.1-alpha",
+      "hash": "sha256-34qP2aqJgvJ6rQo5vi9o65kxrxbp2dFi8S7z3B+P74g="
+    },
+    "nilla-nixos": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "nixos"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "52c623ae89fe77de669a981c7e92b1504cd99eac",
+      "url": "https://github.com/nilla-nix/nixos/archive/52c623ae89fe77de669a981c7e92b1504cd99eac.tar.gz",
+      "hash": "sha256-7tadYU5GzOUAxo8XLC18+dk0Rj+QSORUO5cFdpqfSy4="
+    },
+    "niri": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sodiboo",
+        "repo": "niri-flake"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "0108605855b3222c8965fa23fc05d713b77d0564",
+      "url": "https://github.com/sodiboo/niri-flake/archive/0108605855b3222c8965fa23fc05d713b77d0564.tar.gz",
+      "hash": "sha256-ipcsHV+XE7gaItRhqLsjLCYKIk57IAP1s9BHajQRotA="
+    },
+    "nix-index-database": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "nix-index-database"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "f0736b09c43028fd726fb70c3eb3d1f0795454cf",
+      "url": "https://github.com/nix-community/nix-index-database/archive/f0736b09c43028fd726fb70c3eb3d1f0795454cf.tar.gz",
+      "hash": "sha256-y1JlcMB2dKFkrr6g+Ucmj8L//IY09BtSKTH/A7OU7mU="
+    },
+    "nix-maid": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "viperML",
+        "repo": "nix-maid"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "bf9cac33b417af732dd7c9626c1846d0132cfd27",
+      "url": "https://github.com/viperML/nix-maid/archive/bf9cac33b417af732dd7c9626c1846d0132cfd27.tar.gz",
+      "hash": "sha256-OBRN1DqwitwxymeuNGEouTvRIPqMEbMQM5cvXfZvDPQ="
+    },
+    "nixos-hardware": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixos-hardware"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "cc66fddc6cb04ab479a1bb062f4d4da27c936a22",
+      "url": "https://github.com/nixos/nixos-hardware/archive/cc66fddc6cb04ab479a1bb062f4d4da27c936a22.tar.gz",
+      "hash": "sha256-nFxE8lk9JvGelxClCmwuJYftbHqwnc01dRN4DVLUroM="
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixos-unstable",
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-25.11pre836203.dc9637876d0d/nixexprs.tar.xz",
+      "hash": "sha256-GBa/N8y1tJKl+TgKZJkfHB/KtSwYtFdb/PmSxsJjv0w="
+    },
+    "schizofox": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "schizofox",
+        "repo": "schizofox"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "05e7a9f99d59e519527f65b42cdcf2c691a17675",
+      "url": "https://github.com/schizofox/schizofox/archive/05e7a9f99d59e519527f65b42cdcf2c691a17675.tar.gz",
+      "hash": "sha256-Pp73hv4S6FCJvsxPTIhKjDdDBbx1qfUlhq91joQpR3Q="
+    },
+    "shell": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "caelestia-dots",
+        "repo": "shell"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "37809f2030a1f520e0f66c1c69360f39b4e6f9dd",
+      "url": "https://github.com/caelestia-dots/shell/archive/37809f2030a1f520e0f66c1c69360f39b4e6f9dd.tar.gz",
+      "hash": "1m51wpj2cpxiqz539pwv28nflc2xpfrwcm35lsxpbnmlbnhilyyl"
+    },
+    "stylix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "stylix"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "cf71ad5aae3555d9ccc3ae0b522a88e8973c500d",
+      "url": "https://github.com/nix-community/stylix/archive/cf71ad5aae3555d9ccc3ae0b522a88e8973c500d.tar.gz",
+      "hash": "sha256-cWdFqyNEqGbB6S5neG8MnrOaEXtPQRSlx0pm9NRehzs="
+    },
+    "zen-browser": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "0xc000022070",
+        "repo": "zen-browser-flake"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "c451de612fa40c25d7f0532f8550a6f99dedf6e2",
+      "url": "https://github.com/0xc000022070/zen-browser-flake/archive/c451de612fa40c25d7f0532f8550a6f99dedf6e2.tar.gz",
+      "hash": "1xljhq59xq8hzrqi4argqk49a166j1f0dcb8hbc63j5zfbl4gzvn"
+    }
+  },
+  "version": 5
+}
