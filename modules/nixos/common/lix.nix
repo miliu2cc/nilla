@@ -22,6 +22,8 @@
     dates = "08:30";
   };
 
+  users.groups.plugdev = { };
+
   users.users.n3xt2f = {
     isNormalUser = true;
     description = "n3xt2f";

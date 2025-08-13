@@ -10,6 +10,8 @@
     project.inputs.daed.result.nixosModules.daed
   ];
 
+  virtualisation.waydroid.enable = true;
+
   users.users.n3xt2f = {
       maid = {
         # nix-maid configuration
@@ -25,6 +27,7 @@
           ./hyprland
           ./starship
           ./nushell
+          ./niri
         ];
       };
     };
@@ -42,7 +45,21 @@
 
     macchina
 
+    spotify
+
     feishin
+    #niri shell pkgs
+    quickshell
+    material-symbols
+    inter
+    fira-code
+    cava
+    wl-clipboard
+    cliphist
+    ddcutil
+    libsForQt5.qt5ct
+    kdePackages.qt6ct
+    matugen
 
     wechat-uos
     #qq
@@ -52,7 +69,6 @@
     pavucontrol
 
     npins
-    wl-clipboard
 
     fastfetch
     zed-editor

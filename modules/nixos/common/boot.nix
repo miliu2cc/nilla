@@ -13,9 +13,11 @@
 
   #修复wifi问题尝试
   #boot.kernelModules = [ "iwlwifi" ];
+  # 开机自动加载模块
+  boot.kernelModules = [ "acpi_call" ];
 
-  boot.kernelParams = ["module_blacklist=i915" "acpi_call"];
-  #boot.extraModulePackages = [config.boot.kernelPackages.acpi_call];
+  boot.kernelParams = ["module_blacklist=i915"];
+  boot.extraModulePackages = [config.boot.kernelPackages.acpi_call];
 
   # ✅ 禁用 WiFi 驱动节能和动态功耗
   #boot.extraModprobeConfig = ''
