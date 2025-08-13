@@ -4,6 +4,7 @@
   imports = [
     ./daed.nix
     ./awcc.nix
+    ./niri/package.nix
 
     project.inputs.nix-maid.result.nixosModules.default
     project.inputs.daed.result.nixosModules.dae
@@ -27,7 +28,7 @@
           ./hyprland
           ./starship
           ./nushell
-          ./niri
+          #./niri
         ];
       };
     };
