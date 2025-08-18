@@ -1,5 +1,4 @@
-{ config }:
-{
+{config}: {
   config.systems.nixos = {
     "nixos" = {
       pkgs = config.inputs.nixpkgs.result.x86_64-linux;
@@ -22,7 +21,7 @@
         system = "x86_64-linux";
       };
 
-      #homes = { inherit (config.homes) "n3xt2f:x86_64-linux"; };
+      #homes = {inherit (config.homes) "n3xt2f:x86_64-linux";};
     };
   };
 }

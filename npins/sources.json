@@ -218,6 +218,19 @@
       "url": "https://releases.nixos.org/nixos/unstable/nixos-25.11pre836203.dc9637876d0d/nixexprs.tar.xz",
       "hash": "sha256-GBa/N8y1tJKl+TgKZJkfHB/KtSwYtFdb/PmSxsJjv0w="
     },
+    "nvf": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "notashelf",
+        "repo": "nvf"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "b6490efbe0b28b3bca727ecd4846fc8006352822",
+      "url": "https://github.com/notashelf/nvf/archive/b6490efbe0b28b3bca727ecd4846fc8006352822.tar.gz",
+      "hash": "13sdy8ndalpzyav44swcbaj5il44d0h459mcw2yibmvhbvc1vh7p"
+    },
     "schizofox": {
       "type": "Git",
       "repository": {

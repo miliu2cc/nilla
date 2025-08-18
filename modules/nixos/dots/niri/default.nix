@@ -3,5 +3,5 @@
   packages = [
     pkgs.niri
   ];
-  #file.home.".config/starship.toml".source = ./starship.toml;
+  file.home.".config/niri/config.kdl".source = ./config.kdl;
 }

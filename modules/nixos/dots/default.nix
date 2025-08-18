@@ -1,37 +1,43 @@
-
-{pkgs, project, config, ...}:
+{
+  pkgs,
+  project,
+  config,
+  ...
+}:
 {
   imports = [
     ./daed.nix
     ./awcc.nix
     ./niri/package.nix
+    ./nvf
 
     project.inputs.nix-maid.result.nixosModules.default
     project.inputs.daed.result.nixosModules.dae
     project.inputs.daed.result.nixosModules.daed
+    project.inputs.nvf.result.nixosModules.default
   ];
 
   virtualisation.waydroid.enable = true;
 
   users.users.n3xt2f = {
-      maid = {
-        # nix-maid configuration
-        packages = [
-          pkgs.git
-        ];
-        file.home.".gitconfig".text = ''
-          [user]
-            email=miliu2cc@gmail.com
-            name=miliu2cc
-        '';
-        imports = [
-          ./hyprland
-          ./starship
-          ./nushell
-          #./niri
-        ];
-      };
+    maid = {
+      # nix-maid configuration
+      packages = [
+        pkgs.git
+      ];
+      file.home.".gitconfig".text = ''
+        [user]
+          email=miliu2cc@gmail.com
+          name=miliu2cc
+      '';
+      imports = [
+        ./hyprland
+        ./starship
+        ./nushell
+        ./niri
+      ];
     };
+  };
 
   #idk how to categorize these or dont need config files
   environment.systemPackages = with pkgs; [
@@ -44,7 +50,11 @@
     mesa
     libGL
 
+    rustc
+    cargo
+
     macchina
+    yazi
 
     spotify
 
@@ -61,6 +71,9 @@
     libsForQt5.qt5ct
     kdePackages.qt6ct
     matugen
+    wallust
+
+    swww
 
     wechat-uos
     #qq
@@ -81,5 +94,5 @@
 
     bottom
     toybox
- ];
+  ];
 }
