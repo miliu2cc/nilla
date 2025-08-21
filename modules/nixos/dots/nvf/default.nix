@@ -1,4 +1,4 @@
-{lib, ...}:{
+{lib, pkgs, ...}:{
   programs.nvf = {
     enable = true;
 
@@ -63,6 +63,17 @@
       vim.utility.yazi-nvim.enable = true;
       vim.utility.smart-splits.enable = true;
       vim.mini.notify.enable = true;
+      vim.startPlugins = [
+        pkgs.vimPlugins.lsp_lines-nvim
+      ];
+      vim.extraPlugins = {
+          lsp_lines = {
+            package = pkgs.vimPlugins.lsp_lines-nvim;
+            setup = ''
+              require("lsp_lines").setup()
+            '';
+          };
+        };
     };
   };
 }

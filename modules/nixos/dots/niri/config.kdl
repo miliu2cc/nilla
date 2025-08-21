@@ -176,8 +176,10 @@ binds {
     Super+Ctrl+R { screenshot-screen; }
     Super+D { spawn  "qs" "-c" "Noctalia" "ipc" "call" "globalIPC" "toggleLauncher"; }
     Super+E { spawn "ghostty" "-e" "yazi"; }
+    Super+Shift+E {spawn "thunar";}
     Super+Equal { set-window-height "+5%"; }
     Super+F { fullscreen-window; }
+    Super+G { toggle-window-floating; }
     Super+H { focus-column-left; }
     Super+J { focus-window-or-workspace-down; }
     Super+K { focus-window-or-workspace-up; }

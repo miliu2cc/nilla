@@ -30,4 +30,6 @@
     extraGroups = [ "networkmanager" "wheel" "plugdev"];
     shell = pkgs.nushell;
   };
+
+  programs.nix-ld.enable = true;
 }

@@ -1,0 +1,6 @@
+[mgr]
+show_hidden = true
+[opener]
+edit = [
+  { run = 'ghostty -e nvim "$@"', block = false, desc = "Edit with Neovim" },
+]

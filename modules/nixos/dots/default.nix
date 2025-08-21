@@ -8,8 +8,9 @@
   imports = [
     ./daed.nix
     ./awcc.nix
-    ./niri/package.nix
+    ./obs.nix
     ./nvf
+    ./vscode
 
     project.inputs.nix-maid.result.nixosModules.default
     project.inputs.daed.result.nixosModules.dae
@@ -35,6 +36,7 @@
         ./starship
         ./nushell
         ./niri
+        ./yazi
       ];
     };
   };
@@ -44,7 +46,6 @@
     #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     #  wget
     git
-    helix
     chromium
     ghostty
     mesa
@@ -52,13 +53,18 @@
 
     rustc
     cargo
+    solc
 
+    #vscodium
+    #zed-editor
     macchina
     yazi
+    xfce.thunar
 
     spotify
-
     feishin
+    animeko
+
     #niri shell pkgs
     quickshell
     material-symbols
@@ -84,10 +90,8 @@
 
     npins
 
-    fastfetch
-    zed-editor
+    #zed-editor
 
-    onagre
     pixi
     #iwd
     #project.inputs.awcc.result."x86_64-linux"
@@ -95,4 +99,6 @@
     bottom
     toybox
   ];
+
+  
 }
